@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "configVersion": 1,
+  "product": "school",
+  "school": {
+    "sections": [
+      "fr",
+      "en"
+    ]
+  },
+  "client": {
+    "id": "colombe",
+    "slug": "sbfoirln4rms22uj",
+    "name": "École Bilingue La Colombe",
+    "shortName": "La Colombe",
+    "description": "Gestion scolaire — école primaire bilingue",
+    "slogan": "Instruire, éduquer, élever",
+    "tagline": "École primaire bilingue"
+  },
+  "company": {
+    "legalName": "ÉCOLE BILINGUE LA COLOMBE",
+    "phone": "+237 699 00 11 22",
+    "email": "direction@lacolombe-test.cm",
+    "address": "Quartier Bonamoussadi",
+    "city": "Douala",
+    "siege": "Douala, Cameroun"
+  },
+  "invoicing": {
+    "currency": "XAF",
+    "currencySymbol": "FCFA",
+    "invoiceTitle": "REÇU DE PAIEMENT",
+    "receiptFooter": "Merci de votre confiance — École La Colombe"
+  },
+  "tenant": {
+    "prefix": "colombe_",
+    "localDbName": "colombe_db"
+  },
+  "branding": {
+    "brand": "#0E7490",
+    "logo": null,
+    "icon": null,
+    "cover": null
+  },
+  "locale": {
+    "default": "fr",
+    "available": [
+      "fr",
+      "en"
+    ]
+  },
+  "state": {
+    "enabled": true,
+    "message": ""
+  }
+}
