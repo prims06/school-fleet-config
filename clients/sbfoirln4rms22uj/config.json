@@ -51,5 +51,8 @@
   "state": {
     "enabled": true,
     "message": ""
+  },
+  "supabase": {
+    "enc": "5Aac1UtTK9tKiNK9l4bX7OplQCq8z2xM2Ja4LdAB8iY0dkdBlfHGOwQ85yuifgnkYf2DW1ke+gzIGeL/EnjWOJpklIX04HnWGRHll2LuFjoEn3au1/TbxlFv3Xa6w8LFQjpDGoRoZyY9hModsoKo9PtTjXYsTNnHzaPkD11pw/i1LfmP66DPjsL+yKO/hoN1V8/MBmqGBtkY9to0IbY/045hpDps/raEZM8HkCH38sF6gwYXU809gywbOHYYT00H93XgBo57pGk0nMGwdGlAPJcYvMyNRkvT9lzOhc1P1z9jAxCiyDaLbdRoglaDDfSa7j5UPSpZHyOyv44KjGH9SRCtZcNxVgy32ef599yPceOxCLMI50bI+a+VTakTmmDTu3uzUDsZ119nF5PkHS/Y8J0lHeK4VT9gXoUYdGB9Snn+NyPfhpT8k07TLqhqK6I6eE6G3xF/FJHARIk7yXaZn+e2zRib+d/Yvf8y4/vMcMnVm5jjKw4hwFQYNoNQQ79+s2kaUr6JYbQ/yY/S8frH+aIk8OBrXPMEbF9ywizE1857k+016C5g"
   }
 }
