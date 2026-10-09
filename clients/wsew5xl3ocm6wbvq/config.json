@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "configVersion": 3,
+  "configVersion": 4,
   "product": "school",
   "client": {
     "id": "demo_ecole",
@@ -91,7 +91,7 @@
     "enc": "fsNfclVm9uGpQmNPFUBbq10+I3CWOPIDEj00hNB53BQCfQKA9jagwg/NL1kKHJJzTqIyI9KFmKWXxf6B5IKZzPr4RqQrqgT5Pgxnl8MENa+P8yQ/KNsAF9N5V3cpSPNnnYLb1ERtSBF5XFL72LTERucOtPuJ8IbUHo/hGxmvgBKkYFgG182ejf3k4BnxxsJt9rUZh8OqIt9pVXKef1aAqFIFJp9UMsnu2pbP1PArLMq9YUBV6zv/vtq/ojbgw7e3q/OPOIcEvXZoVEbu6DIB9O65fzg+7YGj42GxVERNTkHJGucPXqnzSpcJwuPQbK7CiiJ/PaziikttyhxzFNPqeBC7eCMqDorh0JAb0OSVgucJovgfzfqmc+nuwz3C6wdE9XqVptptw8Cojs/1Eq2IxUZuQGVPGK80GKOHmqfr/ouZnrIn2OMKBxBA0pmBm98dchQOdrHdZQspmW5G6/dVwANrUIR0qN5QfGXkxDvktdAyesCrOtzMGXt/yn26trsiVLl5PBeOmIH4pbeQ13Elwo4sVwZIW5jV++0rqN6dwjpGB2HAmNA+F02itm9kDtXJJP1SgjY="
   },
   "license": {
-    "enc": "uNp9ah3L/8VzqsYBgOlLZvnDyuKLopxbr5C3RJkl0XMn1YfIijlX3K8deF8FXhZeL6sGv3VG+Uv0u4/OIKgO8tTRqPjovOVgaM9mLg6E7xp1bU/YFT0cqmLmn3NO3Zpmy7kUSk3N",
+    "enc": "AyMhbtSl+FYgbqgmi9NL0mBtZWFmnhPaa3p/t9KAs9mHnA6fuLRrM6RrJO1zJ+rmPrLuQH4OpjBzSRXvfkEf6alUcG3dqY3qAAlb936FAyTWWZIbO/VeojdKtjlibZ0b1lDf10Ds",
     "key_version": 1
   },
   "license_plans": [
@@ -107,7 +107,26 @@
         "CAISSE",
         "COMPTA"
       ],
-      "capabilities": []
+      "capabilities": [
+        "STUDENTS",
+        "GUARDIANS",
+        "ENROLLMENTS",
+        "CLASSROOMS",
+        "GRADE_ENTRY",
+        "RESULTS",
+        "BULLETINS",
+        "APPRECIATIONS",
+        "FEE_STRUCTURES",
+        "FEE_COLLECTION",
+        "RECOVERY",
+        "MERIT_EXEMPTIONS",
+        "TREASURY_ACCOUNTS",
+        "EXPENSES",
+        "TRANSFERS",
+        "FINANCIAL_REPORTS",
+        "CASH_SESSIONS",
+        "ACCOUNTING"
+      ]
     },
     {
       "id": 5,
@@ -120,6 +139,26 @@
         "TRESORERIE",
         "CAISSE",
         "COMPTA"
+      ],
+      "capabilities": [
+        "STUDENTS",
+        "GUARDIANS",
+        "ENROLLMENTS",
+        "CLASSROOMS",
+        "GRADE_ENTRY",
+        "RESULTS",
+        "BULLETINS",
+        "APPRECIATIONS",
+        "FEE_STRUCTURES",
+        "FEE_COLLECTION",
+        "RECOVERY",
+        "MERIT_EXEMPTIONS",
+        "TREASURY_ACCOUNTS",
+        "EXPENSES",
+        "TRANSFERS",
+        "FINANCIAL_REPORTS",
+        "CASH_SESSIONS",
+        "ACCOUNTING"
       ]
     }
   ],
