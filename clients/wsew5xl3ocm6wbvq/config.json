@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "configVersion": 2,
+  "configVersion": 3,
   "product": "school",
   "client": {
     "id": "demo_ecole",
@@ -50,6 +50,11 @@
     "enabled": true,
     "message": ""
   },
+  "settings": {
+    "sessionMaxAgeHours": 24,
+    "idleLockMinutes": 0,
+    "pinRequired": false
+  },
   "plan": {
     "modules": [
       "SCOLARITE",
@@ -78,35 +83,45 @@
     "on_expiry": "EXPIRED_READ_ONLY",
     "license_key_version": 1
   },
-  "license": {
-    "enc": "Sp3rVmu0sKyNib+d6XAPwvG8msmMeeziWWEtJk5khu1D2H383uYDwuP0lWPrQ+wbt8oA73hlUxDrjLdIu8P8vPdAr3oW8tRRk12nUin++lDw6/R4HJb7aFgCDAnFg7SXmqb+33Yj",
-    "key_version": 1
+  "auth": {
+    "recoveryCodeHash": "596c12516bf64fc62b6262890164f065c355b6d58470a02912e867eb6e39c0eb",
+    "recoveryCodeVersion": 2
   },
   "supabase": {
     "enc": "fsNfclVm9uGpQmNPFUBbq10+I3CWOPIDEj00hNB53BQCfQKA9jagwg/NL1kKHJJzTqIyI9KFmKWXxf6B5IKZzPr4RqQrqgT5Pgxnl8MENa+P8yQ/KNsAF9N5V3cpSPNnnYLb1ERtSBF5XFL72LTERucOtPuJ8IbUHo/hGxmvgBKkYFgG182ejf3k4BnxxsJt9rUZh8OqIt9pVXKef1aAqFIFJp9UMsnu2pbP1PArLMq9YUBV6zv/vtq/ojbgw7e3q/OPOIcEvXZoVEbu6DIB9O65fzg+7YGj42GxVERNTkHJGucPXqnzSpcJwuPQbK7CiiJ/PaziikttyhxzFNPqeBC7eCMqDorh0JAb0OSVgucJovgfzfqmc+nuwz3C6wdE9XqVptptw8Cojs/1Eq2IxUZuQGVPGK80GKOHmqfr/ouZnrIn2OMKBxBA0pmBm98dchQOdrHdZQspmW5G6/dVwANrUIR0qN5QfGXkxDvktdAyesCrOtzMGXt/yn26trsiVLl5PBeOmIH4pbeQ13Elwo4sVwZIW5jV++0rqN6dwjpGB2HAmNA+F02itm9kDtXJJP1SgjY="
   },
-  "auth": {
-    "recoveryCodeHash": "596c12516bf64fc62b6262890164f065c355b6d58470a02912e867eb6e39c0eb",
-    "recoveryCodeVersion": 2
+  "license": {
+    "enc": "uNp9ah3L/8VzqsYBgOlLZvnDyuKLopxbr5C3RJkl0XMn1YfIijlX3K8deF8FXhZeL6sGv3VG+Uv0u4/OIKgO8tTRqPjovOVgaM9mLg6E7xp1bU/YFT0cqmLmn3NO3Zpmy7kUSk3N",
+    "key_version": 1
   },
   "license_plans": [
     {
       "id": 4,
       "code": "DEMO",
       "label": "Forfait Démo",
-      "modules": [],
+      "modules": [
+        "SCOLARITE",
+        "NOTES",
+        "FINANCE",
+        "TRESORERIE",
+        "CAISSE",
+        "COMPTA"
+      ],
       "capabilities": []
     },
     {
       "id": 5,
       "code": "SUR_MESURE",
-      "label": "Sur mesure"
+      "label": "Sur mesure",
+      "modules": [
+        "SCOLARITE",
+        "NOTES",
+        "FINANCE",
+        "TRESORERIE",
+        "CAISSE",
+        "COMPTA"
+      ]
     }
   ],
-  "subscription_support": {},
-  "settings": {
-    "sessionMaxAgeHours": 24,
-    "idleLockMinutes": 0,
-    "pinRequired": false
-  }
+  "subscription_support": {}
 }
