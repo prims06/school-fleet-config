@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "configVersion": 1,
+  "product": "school",
+  "client": {
+    "id": "demo_ecole",
+    "slug": "wsew5xl3ocm6wbvq",
+    "name": "Démo Fedora",
+    "shortName": "Démo École",
+    "description": "Client de démonstration Fedora School (fictif)",
+    "slogan": "",
+    "tagline": "Accroche démo École"
+  },
+  "company": {
+    "legalName": "Démo Fedora École SARL",
+    "phone": "+237 600 00 00 02",
+    "email": "contact-ecole@demo-fedora.test",
+    "address": "2 avenue de la Démo",
+    "city": "Démoville-Sud",
+    "siege": "Campus Démo, Démoville-Sud",
+    "rccm": "DEMO-RCCM-0002",
+    "niu": "DEMO-NIU-0002",
+    "capitalSocial": "2 000 000 XAF",
+    "bankAccount": "DEMO-BANQUE-0002",
+    "bankAgency": "Agence Démo Sud"
+  },
+  "invoicing": {
+    "currency": "XAF",
+    "currencySymbol": "FCFA",
+    "invoiceTitle": "REÇU DÉMO",
+    "receiptFooter": "Mentions démo école : frais non remboursables."
+  },
+  "tenant": {
+    "prefix": "demo_ecole_",
+    "localDbName": "demo_ecole_db"
+  },
+  "branding": {
+    "brand": "#059669",
+    "logo": null,
+    "icon": null,
+    "cover": null
+  },
+  "locale": {
+    "default": "fr",
+    "available": [
+      "fr"
+    ]
+  },
+  "state": {
+    "enabled": true,
+    "message": ""
+  },
+  "settings": {
+    "sessionMaxAgeHours": 24,
+    "idleLockMinutes": 0,
+    "pinRequired": false
+  },
+  "plan": {
+    "modules": [
+      "SCOLARITE",
+      "NOTES",
+      "FINANCE",
+      "TRESORERIE",
+      "CAISSE",
+      "COMPTA",
+      "IMPORT"
+    ]
+  },
+  "auth": {
+    "recoveryCodeHash": "596c12516bf64fc62b6262890164f065c355b6d58470a02912e867eb6e39c0eb",
+    "recoveryCodeVersion": 2
+  },
+  "supabase": {
+    "enc": "fsNfclVm9uGpQmNPFUBbq10+I3CWOPIDEj00hNB53BQCfQKA9jagwg/NL1kKHJJzTqIyI9KFmKWXxf6B5IKZzPr4RqQrqgT5Pgxnl8MENa+P8yQ/KNsAF9N5V3cpSPNnnYLb1ERtSBF5XFL72LTERucOtPuJ8IbUHo/hGxmvgBKkYFgG182ejf3k4BnxxsJt9rUZh8OqIt9pVXKef1aAqFIFJp9UMsnu2pbP1PArLMq9YUBV6zv/vtq/ojbgw7e3q/OPOIcEvXZoVEbu6DIB9O65fzg+7YGj42GxVERNTkHJGucPXqnzSpcJwuPQbK7CiiJ/PaziikttyhxzFNPqeBC7eCMqDorh0JAb0OSVgucJovgfzfqmc+nuwz3C6wdE9XqVptptw8Cojs/1Eq2IxUZuQGVPGK80GKOHmqfr/ouZnrIn2OMKBxBA0pmBm98dchQOdrHdZQspmW5G6/dVwANrUIR0qN5QfGXkxDvktdAyesCrOtzMGXt/yn26trsiVLl5PBeOmIH4pbeQ13Elwo4sVwZIW5jV++0rqN6dwjpGB2HAmNA+F02itm9kDtXJJP1SgjY="
+  },
+  "license": {
+    "enc": "ryXxjSyKkuYkziF+tqVS+AnAS0DuEdcDBLwcZbPe9O6rxYd+/ycn3r3Pd7npgsNO0eTcoXpffnhLhl5iYTP9crnNbt1BJ8EPZZ60T33J0bpui+lr/9DMZVz9xkulvU93R4PiNH3t",
+    "key_version": 1
+  },
+  "license_plans": [],
+  "subscription_support": {}
+}
