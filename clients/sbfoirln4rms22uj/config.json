@@ -1,11 +1,21 @@
 {
   "schema": 1,
-  "configVersion": 1,
+  "configVersion": 2,
   "product": "school",
   "school": {
     "sections": [
       "fr",
       "en"
+    ],
+    "orders": [
+      "MAT_FR",
+      "MAT_EN",
+      "PRI_FR",
+      "PRI_EN",
+      "SEC_FR",
+      "SEC_EN",
+      "TEC_FR",
+      "TEC_EN"
     ]
   },
   "client": {
