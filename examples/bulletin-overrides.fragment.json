@@ -1,0 +1,37 @@
+{
+  "_warning": "FRAGMENT DE DOCUMENTATION. NE PAS PUBLIER TEL QUEL; fusionner sous la bonne configuration tenant, puis re-signer le JSON avec l'outil Fedora Console/agent local.",
+  "school": {
+    "bulletinTemplates": {
+      "PRI_FR": {
+        "accentColor": "#0E7490",
+        "header": {
+          "headTitle": "Directeur",
+          "showLogo": true
+        }
+      },
+      "PRI_EN": {
+        "accentColor": "#0E7490",
+        "header": {
+          "showLogo": true
+        }
+      },
+      "SEC_FR": {
+        "accentColor": "#0E7490",
+        "visualPreset": "minesec-apc-a4-v1",
+        "header": {
+          "headTitle": "Principal"
+        }
+      },
+      "SEC_EN": {
+        "accentColor": "#0E7490",
+        "visualPreset": "minesec-apc-a4-v1"
+      },
+      "TEC_FR": {
+        "visualPreset": "minesec-apc-a4-v1"
+      },
+      "TEC_EN": {
+        "visualPreset": "minesec-apc-a4-v1"
+      }
+    }
+  }
+}
