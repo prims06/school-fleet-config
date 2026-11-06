@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "configVersion": 2,
+  "configVersion": 3,
   "product": "school",
   "school": {
     "sections": [
@@ -64,5 +64,8 @@
   },
   "supabase": {
     "enc": "Nvy27gW67SrOrto8MeVtqpTX8xoUHd5CUXK2y7PhmOw0iLP7It4MnGOeCu8S6R/QJRoaHx5+8H1lK1GMxnXjdlppItvDg83XET9GNVpAji9yfM9MIZi39JqX9fIMmMJCQKDfrXZ67/XhywDSBCk2WwPDmTuIoOLAFCszO8FAC7uOdTr0MCMapvqFWFTCjLNzw9LH1wrRHnpj7iN4M3Y5xEdbjwcXpfs2MLqm40fyM/fKVrM72hQWM6hYRKLPHR/MN5/zDhYDJ7KdJqmUhu+TO8PpfbjtKG6eHDy62LdKigKcGUUIEg6QzCLDREnI77d99TrWMtfFL4iqmahKwVRotv/JQcunxP97wv1liCc2LBB60wFOIfPPQowb0JaW29pToKErAhEdA6WSrYqzuc+p3mFFW7M2fHbXBCRVylgnUAAjgJASyvgWdF8AdXTmnSBzOvefyuQ90HnQCQ3ln4uGROjeOQYEJ4mNryZoowBvVzU57wpxKvYX/mk7nKRAgYL7jKWroT8xob2eZN3WjKgCXwc6KPp8aMEh0ZFGck3uVl17hVxY"
+  },
+  "sync": {
+    "actorLease": true
   }
 }
